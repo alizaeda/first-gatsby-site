@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://gatbsy.alieslam.tech/",
     title: "My First Gatsby Site",
-    description: "My First Gatsby GraphQL Query",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -15,5 +14,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    `gatsby-plugin-mdx`,
   ],
 };
